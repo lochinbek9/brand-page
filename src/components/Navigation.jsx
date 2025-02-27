@@ -8,17 +8,17 @@ function Navigation() {
           <img src="./img/logo.png" alt="" />
         </a>
         <ul className='list'>
-            <li>
-              <a href="#">MENU</a>
+            <li className="item">
+              <a href="#" className="link">MENU</a>
             </li>
-            <li>
-              <a href="#">LOCATION</a>
+            <li className="item">
+              <a href="#" className="link">LOCATION</a>
             </li>
-            <li>
-              <a href="#">ABOUT</a>
+            <li className="item">
+              <a href="#" className="link">ABOUT</a>
             </li>
-            <li>
-              <a href="#">CONTACT</a>
+            <li className="item">
+              <a href="#" className="link">CONTACT</a>
             </li>
         </ul>
         <button>Login</button>

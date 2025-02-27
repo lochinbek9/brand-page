@@ -1,10 +1,10 @@
  @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
  
-*, ::after, ::before{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
- 
+ *, ::after, ::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 
 :root{
@@ -22,7 +22,7 @@ ul{
 
 
 button{
- all: unset;
+  all: unset;
   background-color: var(--red);
   color: var(--white);
   border: none;
@@ -34,47 +34,56 @@ button{
   outline: none;
   font-weight: 500;
 }
- body {
-   font-family: 'Poppins', sans-serif;
- }
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
- .container{
+.container{
   max-width: 1280px;
   padding: 20px 0;
   margin: 0 auto; 
- }
+}
 
 
- .navbar{
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
+}
 
- .list{
+.list{
   display: flex;
   gap: 20px;
- }
+}
 
- .hero-container{
+.link{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--grey);  
+}
+
+.hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
- }
+}
 
- .hero-content{
+.hero-content{
   width: 595px;
- }
+}
 
- .hero-title{
+.hero-title{
   font-family: Poppins;
   font-weight: 800;
   font-size: 108px;
   line-height: 102px;
   letter-spacing: 0%;
- }
+}
 
- .hero-text{
+.hero-text{
   padding: 36px 0;
   max-width: 404px;
   font-family: Poppins;
@@ -83,14 +92,14 @@ button{
   line-height: 24px;
   letter-spacing: 0%;
   color: #5A5959;
- }
+}
 
- .hero-btn{
+.hero-btn{
   display: flex;
   gap: 40px;
- }
+}
 
- .hero-btn-left{
+.hero-btn-left{
   font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
@@ -99,8 +108,32 @@ button{
   background-color: transparent;
   color: grey;
   border: 1px solid grey;
- }
+}
 
- .shopping{
+.shopping{
   padding-top: 36px;
- }
+}
+
+
+.contacts{
+  padding: 71px 0;
+}
+
+.contacts__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__list{
+  display: flex;
+  gap: 20px;
+}
+
+.contacts__item a{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--grey);  
+}

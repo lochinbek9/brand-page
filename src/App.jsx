@@ -2,6 +2,8 @@
 
 import Navigation from "./components/Navigation"
 import Hero from "./components/Hero"
+import Contacts from "./components/Contacts"
+
 import './App.css'
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
   <>
     <Navigation/>
     <Hero/>
+    <Contacts/>
   </>
   )
 }
